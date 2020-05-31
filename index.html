@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      table, th, td {
+        border: 1px solid black;
+      }
+      td {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+      }
+      td.invalid {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="elm"></div>
+    <script src='index.js'></script>
+    <script>
+      window.onload = function () {
+        var app = Elm.Main.init({
+          node: document.getElementById('elm'),
+          //flags: +localStorage.getItem("currentLevel")
+        });
+      }
+    </script>
+  </body>
+</html>
