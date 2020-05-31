@@ -1,0 +1,19 @@
+{
+  "name": "markergrid",
+  "version": "1.0.0",
+  "description": "A project to solve Matt Parker's Maths Puzzles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "elm make src/Main.elm --output=dist/index.js",
+    "postbuild": "cp src/index.html dist/index.html"
+  },
+  "keywords": [
+    "Matt",
+    "Parker",
+    "Maths",
+    "Puzzles"
+  ],
+  "author": "Aaron Lebahn",
+  "license": "MIT"
+}
