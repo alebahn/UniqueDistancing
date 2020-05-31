@@ -5472,7 +5472,7 @@ var $author$project$Main$update = F2(
 			case 'Solve':
 				return $author$project$Main$solve(model);
 			case 'Reset':
-				return $author$project$Main$init;
+				return $author$project$Main$makeModel(model.size);
 			case 'AddMarker':
 				var point = msg.a;
 				return _Utils_update(
