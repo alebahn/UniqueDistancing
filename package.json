@@ -1,7 +1,7 @@
 {
-  "name": "markergrid",
+  "name": "uniquedistancing",
   "version": "1.0.0",
-  "description": "A project to solve Matt Parker's Maths Puzzles",
+  "description": "A project to solve Matt Parker's Maths Puzzle, unique distancing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,9 @@
     "Matt",
     "Parker",
     "Maths",
-    "Puzzles"
+    "Puzzles",
+    "Unique",
+    "Distancing"
   ],
   "author": "Aaron Lebahn",
   "license": "MIT"
