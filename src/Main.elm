@@ -179,7 +179,7 @@ update : Msg -> Model -> Model
 update msg model =
   case msg of
     Solve -> solve model
-    Reset -> init
+    Reset -> makeModel (model.size)
     AddMarker point -> { model | markers = point :: model.markers}
     ChangeSize newSizeStr -> case toInt newSizeStr of
        Nothing -> model
